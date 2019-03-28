@@ -1,0 +1,1 @@
+export const INIT_PROJECT = "INIT_PROJECT"
