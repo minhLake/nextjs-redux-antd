@@ -5,7 +5,6 @@ const _fetch = (url, data) => {
     cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
     credentials: 'same-origin', // include, same-origin, *omit
     headers: {
-      'user-agent': 'Mozilla/4.0 MDN Example',
       'content-type': 'application/json'
     },
     method: 'POST', // *GET, POST, PUT, DELETE, etc.
